@@ -1,0 +1,31 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Environment variables
+.env
+.env.*
+
+# SQLite runtime database
+backend/dfa_simulator.db
+backend/dfa_simulator.db-journal
+backend/dfa_simulator.db-wal
+backend/dfa_simulator.db-shm
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
